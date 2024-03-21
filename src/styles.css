@@ -1,0 +1,182 @@
+.nav {
+    background-color: #061148
+}
+.sandoz{
+    letter-spacing: 10px;
+}
+.bbg{
+    padding-top: 40px;
+}
+.bba{
+    margin-top: 200px;
+}
+.bbc{
+    border-radius: 20px;
+}
+.dd{
+    margin-right: -30px;
+}
+.ddd{
+    margin-right: -40px;
+}
+.dad{
+    width: 90%;
+}
+.dia{
+    margin-top: 200px;
+}
+.card {
+    background-color: #4b4e5b;
+    border-radius:50px ;
+    border: 5px solid rgb(203, 195, 195);
+}
+.upp{
+    padding-top: 70px; padding-bottom: 40px; 
+}
+.opacity{
+    opacity: 0.5;
+}
+.space {
+    letter-spacing: 10px;
+}
+.display {
+    display: flex;
+}
+.text {
+    width: 50%;
+}
+.search {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.form-control{
+    height: 50px;
+    border-radius: 20px;
+    border-color: #80808029;
+    outline: none;
+    border-width: 1px;
+    box-shadow: 1px 1px 1px #e7e7e7;
+
+}
+.box {
+    width: 28em;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 2px rgb(224, 217, 217);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+
+.bttn{
+    margin-top: 8px;
+    transform: translateY(-100%);
+    background-color:  rgb(43, 75, 122);
+    height: 50px;
+    border-radius: 30px;
+    width: 15em;
+    border:  rgb(43, 75, 122);
+    color: white;
+  }
+.inner {
+    font-size: 10px;
+    color: gray;
+}
+.inner-date {
+    font-size: 12px;
+    margin-top: -20px;
+}
+ tr {
+    padding: 100px;
+    margin: 200px;
+    font-size: 15px;
+}
+thead {
+    background-color: rgb(211, 205, 205);
+}
+th {
+    color: #061148;
+}
+.btn {
+    background-color: red;
+}
+
+.pagination {
+    display: inline-block;
+    width: 50%;
+}
+.preview {
+    width: 50%;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 12px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 10px;
+    background-color: rgb(218, 218, 218);
+}
+  
+.pagination a.active {
+    background-color: #2d73ff;
+    color: white;
+    border: 1px solid #2d73ff;
+}
+.pagination .words {
+    background-color: white;
+    color: #4b4e5b;
+    border: 0;
+    font-size: 13px;
+}
+  
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+.prebtn {
+    background-color: #2d73ff;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #2d73ff;
+    padding: 10px 35px;
+}
+.prebtn a {
+    text-decoration: none;
+    color: white;
+}
+.back {
+    opacity: 0.5;
+}
+.btnmodal {
+    background-color: #e3e0e0;
+    color: rgb(28, 53, 112);
+    border-radius: 50px;
+    border: 1px solid #cdcdcd;
+    padding: 5px 40px;
+    font-size: small;
+    text-align: left;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+    padding: 12px 10px;
+    font-size: 12px;
+    border: none;
+  }
+  /* .hoverr:hover {
+    background-color: red;
+  } */
+/* .hover-zoom {
+    transition: transform 0.3s ease;
+  }
+  
+.hover-zoom:hover {
+    transform: scale(1.1);
+  } */

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import Home from './home'; // Import the Home component
+// import Navbar from './navbar'; 
+import CHMP from './chmp';
+import Report from './report';
+import Update from './update';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// Import other components as needed
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      // <Navbar />
+
+      <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/chmp" element={<CHMP />} />
+        <Route exact path="/report" element={<Report />} />
+        <Route exact path="/update" element={<Update />} />
+        {/* <Route path="/other" element={<OtherPage />} /> */}
+      </Routes>
+    </Router>
+      
+    );
 }
 
 export default App;
