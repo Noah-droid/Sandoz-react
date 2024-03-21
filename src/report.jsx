@@ -8,6 +8,7 @@ import Image5 from './img/image_5.jpg';
 function Report(){
     return(
       
+      
 
         <div>
              <Navbar />
